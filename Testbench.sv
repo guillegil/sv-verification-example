@@ -1,5 +1,7 @@
 `timescale 1ns / 1ps
 
+`include "./include/Test.sv"
+
 module testbench;
     bit clk;
     bit reset;

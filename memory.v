@@ -11,8 +11,8 @@ module memory(
 
     reg [31:0] mem [0:1023];
     
+    reg i;
     initial begin
-       int i;
        for (i = 0; i < 1024; i = i + 1) begin
            mem[i] <= 32'hFFFFFFFF;
        end 
